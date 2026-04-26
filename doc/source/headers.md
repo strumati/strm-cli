@@ -10,7 +10,7 @@ GCloud
  - x-goog-credential
  - x-goog-date
  - x-goog-expires
- - x-goog-Signedheaders
+ - x-goog-signedheaders
 
 # Collection
 
