@@ -12,6 +12,10 @@ GCloud
  - x-goog-expires
  - x-goog-signedheaders
 
+Azure
+ - x-ms-version
+ - x-ms-date
+
 # Collection
 
 from the cli's and docs of the cloud services
