@@ -7,4 +7,4 @@ To see help text, you can run:
 
   strm help
   strm <command> help
-  strm <command> <subcommand> help`)
+  strm <command> <subcommand> help`);
