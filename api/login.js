@@ -19,7 +19,8 @@ http.createServer((req,res)=>{
                         .get("jwt");
 
 
-                    config["JWT"] = token;
+                    config["TOKEN"] = token;
+                    config["API"] = "api.strumati.cloud"
                     configWrite();
 
                     process.exit();
