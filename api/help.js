@@ -1,5 +1,6 @@
 const services = [
     "help",
+    "login",
 ]
 
 services.sort()
