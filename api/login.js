@@ -19,7 +19,7 @@ http.createServer((req,res)=>{
                         .get("jwt");
 
 
-                    config["TOKEN"] = token;
+                    config["TOKEN"] = token.replace(" ","+");
                     config["API"] = "api.strumati.cloud"
                     configWrite();
 
